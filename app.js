@@ -47,7 +47,7 @@
       if (!(eid2.checked || eid3.checked)) {
         let name = document.createElement("h4");
         name.innerHTML = "الرجاء اختيار تصميم"; 
-        name.style.color = "red";
+        name.style.color = "#fb5058";
         var err = document.querySelector('.err');
         err.appendChild(name);
         return false;
