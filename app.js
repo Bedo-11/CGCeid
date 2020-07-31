@@ -37,14 +37,12 @@
         canvas.width= 1100;
         canvas.height= 1450;
         context.fillStyle= '#92f7c2';
-        context.fillRect(0,0,canvas.width, canvas.height);
       } else if (eid3.checked){
         var image = document.getElementById('preview3');
-        var n = 480;
-        canvas.width= 2400;
-        canvas.height= 1850;
+        var n = 150;
+        canvas.width= 1100;
+        canvas.height= 1450;
         context.fillStyle= '#88e5e5';
-        context.fill();
       } 
       if (!(eid2.checked || eid3.checked)) {
         let name = document.createElement("h4");
